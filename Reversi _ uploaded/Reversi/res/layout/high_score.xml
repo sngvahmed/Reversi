@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/high_score"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tbl_score_highscore"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true" >
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tbl_list_highscore"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true" >
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Played"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Won"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Lost"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="High Score"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </TableLayout>
+
+</RelativeLayout>

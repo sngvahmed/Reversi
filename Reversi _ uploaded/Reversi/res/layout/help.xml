@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/help"
+    >
+
+    <TextView
+        android:id="@+id/tv_text_help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Reversi Game.\nEach reversi piece has a black side and a white side. On your turn, you place one piece on the board with your color facing up.\n\nYou must place the piece so that an opponent&apos;s piece, or a row of opponent&apos;s pieces, is flanked by your pieces. All of the opponent&apos;s pieces between your pieces are then turned over to become your color.\n\nA move consists of placing one piece on an empty square. If you cannot make a legal move (i.e. you cannot capture any of your opponent&apos;s pieces), you have to pass, and your opponent is on.\n\nIf none of the players can place a piece, it means the game is over, and the player owning more pieces wins.
+If You Want To Start Playing Make Sure you have connect to internet Press Start Game and wait then enjoy playing.\n\nIf you have Any complain please sent it to\nReversi_NWM_Gawad@gmail.com.\n\nCopy Right TO NWM_Gawad Group."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

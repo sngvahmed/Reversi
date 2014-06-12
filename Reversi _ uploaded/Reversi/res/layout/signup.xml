@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_username_signup"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:ems="10" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_email_signup"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_password_signup"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_confpassword_signup"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_country_signup"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_signup_signup"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="475dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
